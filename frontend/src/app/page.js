@@ -20,7 +20,7 @@ export default function Home() {
     }
 
     try {
-        const response = await axios.post('http://localhost:8000/bfhl', {
+        const response = await axios.post('https://bajaj-task-blue.vercel.app/bfhl', {
             data: parsedData
         });
         console.log(response);
