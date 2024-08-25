@@ -1,8 +1,6 @@
 "use client"
 import React, { useState } from 'react';
 import axios from 'axios';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from "./page.module.css";
 
 export default function Home() {
   const [inputData, setInputData] = useState('');
@@ -66,7 +64,7 @@ export default function Home() {
   };
 
   return (
-    <main className={styles.main}>
+    <main >
       <div className="container">
         <h2 className="mt-4">Ojashwee Raman 21BAI1030</h2>
         <form onSubmit={handleSubmit} className="mb-3">
